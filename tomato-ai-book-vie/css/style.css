@@ -180,6 +180,10 @@ input[type=submit] {
   margin: 0px 3px 0px 0px;
   vertical-align: middle;
 }
+.ui.selection.dropdown .menu>.item a img, .ui.dropdown>.text a img{
+  max-height: 1.5rem;
+  margin-right: 3px;
+}
 .page-header .ui.selection.dropdown>.delete.icon, .ui.selection.dropdown>.dropdown.icon, .ui.selection.dropdown>.search.icon{
   padding: 0px;
   top: 50%;
