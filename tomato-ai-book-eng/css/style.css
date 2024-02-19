@@ -191,6 +191,9 @@ input[type=submit] {
   margin: 0px;
   right: 10px;
 }
+.ui.selection.dropdown .menu>.item{
+  padding: 0.78rem 7px  !important;
+}
 /*.page-header .ui.dropdown>.text{
   padding: 3px 0px;
 }*/

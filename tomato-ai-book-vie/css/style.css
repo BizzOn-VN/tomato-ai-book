@@ -184,6 +184,9 @@ input[type=submit] {
   max-height: 1.5rem;
   margin-right: 3px;
 }
+.ui.selection.dropdown .menu>.item{
+  padding: 0.78rem 7px  !important;
+}
 .page-header .ui.selection.dropdown>.delete.icon, .ui.selection.dropdown>.dropdown.icon, .ui.selection.dropdown>.search.icon{
   padding: 0px;
   top: 50%;
