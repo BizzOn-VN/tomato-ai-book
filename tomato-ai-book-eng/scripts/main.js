@@ -69,7 +69,11 @@ jQuery(document).ready(function ($) {
                     scrollTop: $(".section-4").offset().top - 80
                 }, 1000);
             });
-            
+            $(".scl-sc-6").click(function() {
+                $('html, body').animate({
+                    scrollTop: $(".section-1").offset().top - 80
+                }, 1000);
+            });
         }
 
         return{
