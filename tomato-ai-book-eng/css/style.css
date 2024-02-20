@@ -212,6 +212,7 @@ a.md-submit{
   }
 }
 @media screen and (max-width: 767px){
+
     .page-header .toggle-menu{
         display: block;
         padding: 10px 0px;
@@ -635,6 +636,11 @@ p.error{
   background: #E7EDF9;
   display: none;
 }
+.md-tk img{
+  width: 20%;
+  display: table;
+  margin: 0 auto 15px auto;
+}
 .md-tk p{
     position: absolute;
     left: 50%;
@@ -647,6 +653,10 @@ p.error{
     color: #333;
 }
 @media screen and (max-width: 767px){
+  .md-tk{
+    width: 90%;
+    height: 40%;
+  }
   h1,h2,h3{
     font-size: calc(22px + 2vw);
   }
