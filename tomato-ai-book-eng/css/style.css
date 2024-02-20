@@ -289,6 +289,9 @@ a.md-submit{
   width: 45%;
   float: left;
 }
+.banner .left-banner p{
+  text-align: justify;
+}
 .banner .right-banner{
   width: 45%;
   float: right;
@@ -348,6 +351,9 @@ a.md-submit{
   border-radius: 16px;
   margin-bottom: 10px;
 }
+.section-1 .md-content .left-content .top-content p{
+  text-align: justify;
+}
 .section-1 .md-content .left-content .bot-content .md-fl-left{
   
   float: left;
@@ -393,6 +399,7 @@ a.md-submit{
 }
 .section-2 .md-content p{
   margin-bottom: 5px;
+  text-align: justify;
 }
 .section-2 .md-content a{
   color: #F26722;
@@ -577,6 +584,9 @@ a.md-submit{
 .footer .left-footer .content-footer{
   margin-bottom: 20px;
 }
+.footer .left-footer .content-footer p{
+  text-align: justify;
+}
 .footer .left-footer .md-social ul{
   display: table;
   width: 40%;
@@ -592,6 +602,9 @@ a.md-submit{
 .footer .right-footer{
   float: right;
   width: 40%;
+}
+.footer .right-footer p{
+  text-align: justify;
 }
 .footer .left-footer .logo-footer img{
   width: 50%;

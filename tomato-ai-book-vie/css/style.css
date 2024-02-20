@@ -184,15 +184,15 @@ input[type=submit] {
   max-height: 1.5rem;
   margin-right: 3px;
 }
-.ui.selection.dropdown .menu>.item{
-  padding: 0.78rem 7px  !important;
-}
 .page-header .ui.selection.dropdown>.delete.icon, .ui.selection.dropdown>.dropdown.icon, .ui.selection.dropdown>.search.icon{
   padding: 0px;
   top: 50%;
   transform: translateY(-50%);
   margin: 0px;
   right: 10px;
+}
+.ui.selection.dropdown .menu>.item{
+  padding: 0.78rem 7px  !important;
 }
 /*.page-header .ui.dropdown>.text{
   padding: 3px 0px;
@@ -212,6 +212,7 @@ a.md-submit{
   }
 }
 @media screen and (max-width: 767px){
+
     .page-header .toggle-menu{
         display: block;
         padding: 10px 0px;
@@ -288,6 +289,9 @@ a.md-submit{
   width: 45%;
   float: left;
 }
+.banner .left-banner p{
+  text-align: justify;
+}
 .banner .right-banner{
   width: 45%;
   float: right;
@@ -347,6 +351,9 @@ a.md-submit{
   border-radius: 16px;
   margin-bottom: 10px;
 }
+.section-1 .md-content .left-content .top-content p{
+  text-align: justify;
+}
 .section-1 .md-content .left-content .bot-content .md-fl-left{
   
   float: left;
@@ -392,6 +399,7 @@ a.md-submit{
 }
 .section-2 .md-content p{
   margin-bottom: 5px;
+  text-align: justify;
 }
 .section-2 .md-content a{
   color: #F26722;
@@ -576,6 +584,9 @@ a.md-submit{
 .footer .left-footer .content-footer{
   margin-bottom: 20px;
 }
+.footer .left-footer .content-footer p{
+  text-align: justify;
+}
 .footer .left-footer .md-social ul{
   display: table;
   width: 40%;
@@ -591,6 +602,9 @@ a.md-submit{
 .footer .right-footer{
   float: right;
   width: 40%;
+}
+.footer .right-footer p{
+  text-align: justify;
 }
 .footer .left-footer .logo-footer img{
   width: 50%;
