@@ -360,13 +360,15 @@ a.md-submit{
   padding: 20px;
   background: #BECFEF;
   border-radius: 16px;
-  width: 83%;
+  width: 85%;
 }
 .section-1 .md-content .left-content .bot-content .md-fl-left a{
   color: #1F3E79;
-  font-family: 'FONTSPRINGDEMO-TheSeasonsRegular';
   font-weight: 700;
   font-size: calc(8px + 1vw);
+}
+.section-1 .md-content .left-content .bot-content .md-fl-left a:hover{
+  text-decoration: underline;
 }
 .section-1 .md-content .left-content .bot-content .md-fl-right{
   float: right;
