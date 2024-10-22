@@ -366,7 +366,7 @@ a.md-submit{
   color: #1F3E79;
   font-family: 'FONTSPRINGDEMO-TheSeasonsRegular';
   font-weight: 700;
-  font-size: calc(10px + 1.2vw);
+  font-size: calc(8px + 1vw);
 }
 .section-1 .md-content .left-content .bot-content .md-fl-right{
   float: right;
